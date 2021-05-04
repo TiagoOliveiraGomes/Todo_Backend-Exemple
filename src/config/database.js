@@ -1,4 +1,4 @@
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
-module.exports = mongoose.connect('mongodb+srv://TiagoGomes:<4VnNqWCeXSpkIPUb>@todobackend.4chph.mongodb.net/ToDoBackend?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
+module.exports = mongoose.connect('mongodb+srv://TiagoGomes:4VnNqWCeXSpkIPUb@todobackend.4chph.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
 //mongodb://localhost/todo
