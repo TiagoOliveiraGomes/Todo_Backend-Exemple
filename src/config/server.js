@@ -13,8 +13,8 @@ const corsOptions ={
 }
 
 server.use(cors(corsOptions));
-server.use(server.urlencoded({ extended: true }))
-server.use(server.json())
+server.use(express.urlencoded({ extended: true }))
+server.use(express.json())
 server.use(allowCors)
 
 server.listen(process.env.PORT || 3003, function() {
