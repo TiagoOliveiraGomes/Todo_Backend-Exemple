@@ -7,7 +7,7 @@ const allowCors = require('./cors')
 
 const cors = require('cors');
 const corsOptions ={
-    origin:'*', 
+    origin:'https://todo-exemple-frontend.herokuapp.com/#/todos', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
